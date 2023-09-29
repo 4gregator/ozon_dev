@@ -61,7 +61,7 @@ class OzonAPI {
             // "code": 5,
             // "message": "Category not found",
             // "details": []
-            return 'ХУЙ';
+            return 'error';
         }
     }
     
@@ -176,7 +176,7 @@ class OzonAPI {
         } else {
             # TODO
             // throw error
-            return 'ХУЙ';
+            return 'error';
         }
     }
     
@@ -193,7 +193,7 @@ class OzonAPI {
         } else {
             # TODO
             // throw error
-            return 'ХУЙ';
+            return 'error';
         }
     }
 
@@ -278,7 +278,7 @@ class OSync {
         if ($current_categories !== false && $ozon_categories) {
             return $this->recursion($current_categories, $ozon_categories);
         } else {
-            return 'ХУЙ';
+            return 'error';
         }
 
 
@@ -412,7 +412,7 @@ class OSync {
             return true;
         } else {
             #TODO throw error
-            return 'ХУЙ';
+            return 'error';
         }
     }
 
@@ -437,7 +437,7 @@ class OSync {
     //         return true;
     //     } else {
     //         #TODO throw error
-    //         return 'ХУЙ';
+    //         return 'error';
     //     }
     // }
 
@@ -455,7 +455,7 @@ class OSync {
             return true;
         } else {
             #TODO error log
-            return 'ХУЙ';
+            return 'error';
         }
     }
 
